@@ -1,0 +1,27 @@
+.estatisticas {
+    display: flex;
+    margin: 0 112px;
+}
+
+.estatisticas__modulo {
+    width: 90%;
+    margin: 0 1em;
+}
+
+.estatisticas__numero {
+    font-weight: 600;
+    color: var(--cor-destaque);
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+.estatisticas__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-titulo);
+    margin-bottom: 8px;
+}
+
+.estatisticas__texto {
+    line-height: 24px;
+}

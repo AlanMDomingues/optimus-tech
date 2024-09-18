@@ -1,0 +1,22 @@
+.principal {
+    text-align: center;
+    margin: 96px;
+}
+
+.principal__texto-apoio {
+    font-weight: 600;
+    color: var(--cor-destaque);
+}
+
+.principal__titulo {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cor-titulo);
+    margin: 24px 0;
+}
+
+.principal__texto {
+    font-size: 20px;
+    padding: 0 11em;
+    line-height: 30px;
+}

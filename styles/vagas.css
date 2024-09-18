@@ -1,0 +1,40 @@
+.vagas {
+    margin: 0 25vw 7em 25vw;
+}
+
+.vagas__area {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-titulo);
+}
+
+.vagas__lista {
+    margin: 3em 1.5em 4.7em 1.5em;
+    list-style: none;
+}
+
+.vagas__modulo {
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 2em 0;
+}
+
+.vagas__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-titulo);
+    margin-bottom: 29px;
+}
+
+.vagas__info {
+    display: flex;
+    gap: 25px;
+}
+
+.vagas__texto {
+    font-weight: 500;
+    line-height: 24px;
+}

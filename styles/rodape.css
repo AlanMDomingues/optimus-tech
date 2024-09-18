@@ -1,0 +1,58 @@
+.rodape {
+    margin-top: 96px;
+    text-align: center;
+    background-color: var(--cor-fundo-footer);
+    padding: 6em;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--cor-titulo);
+}
+
+.rodape__texto {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 40px 0;
+}
+
+.rodape__email {
+    width: 15%;
+    padding: 12px 36px 12px 15px;
+    border-radius: 8px;
+    border: 1px solid var(--cor-borda-email);
+}
+
+.rodape__email::placeholder {
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+    line-height: 24px;
+}
+
+.rodape__botao {
+    background-color: var(--cor-destaque);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    margin-left: 16px
+}
+
+.rodape__texto-direitos {
+    line-height: 24px;
+    color: var(--cor-direitos);
+    margin-top: 32px;
+}
+
+.rodape__botao:hover {
+    cursor: pointer;
+}
+
+.rodape__botao:active {
+    background-color: #7D0404;
+    color: var(--cor-fundo);
+}

@@ -1,0 +1,32 @@
+.apresentacao {
+    margin: 10em 9em 4em 9em;
+    text-align: center;
+}
+
+.apresentacao__aviso {
+    font-weight: 500;
+    color: var(--cor-destaque);
+    font-size: 14px;
+    background-color: var(--cor-destaque-caixa);
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 13px;
+}
+
+.apresentacao__titulo {
+    font-weight: 600;
+    color: var(--cor-titulo);
+    font-size: 36px;
+    line-height: 44px;
+    margin: 16px 0 20px 0;
+}
+
+.apresentacao__texto {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 64px;
+}
+
+.apresentacao__imagem {
+    width: 94%;
+}
